@@ -1,1 +1,2 @@
 # LaravelとVueでSNS風のアプリケーション
+LaravelとVueでSNS風のアプリケーションを作成しています。
