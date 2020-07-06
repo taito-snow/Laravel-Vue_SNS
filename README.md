@@ -1,1 +1,1 @@
-# Laravel-Vue_SNS
+# LaravelとVueでSNS風のアプリケーション
