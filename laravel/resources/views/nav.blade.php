@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand navbar-dark blue-gradient">
+<nav class="navbar navbar-expand navbar-dark purple-gradient">
 
     <a class="navbar-brand" href="/"><i class="far fa-sticky-note mr-1"></i>taitter</a>
   
