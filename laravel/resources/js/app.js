@@ -1,4 +1,3 @@
-require('./bootstrap');
 import './bootstrap'
 import Vue from 'vue'
 import ArticleLike from './components/ArticleLike'
