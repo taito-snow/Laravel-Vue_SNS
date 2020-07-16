@@ -15,7 +15,7 @@
             </a>
             <div class="dropdown-menu dropdown-menu-right">
               <a class="dropdown-item" href="{{ route("articles.edit", ['article' => $article]) }}">
-                <i class="fas fa-pen mr-1"></i>投稿を更新する
+                <i class="fas fa-pen mr-1"></i>投稿を編集する
               </a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item text-danger" data-toggle="modal" data-target="#modal-delete-{{ $article->id }}">
@@ -79,10 +79,10 @@
           <div class="card-body pt-0 pb-4 pl-3">
             <div class="card-text line-height">
         @endif
-        <a href="" class="border p-1 mr-1 mt-1 text-muted">
-          {{ $tag->name }}
-        </a>
-        @if ($loop->first)
+              <a href="{{ route('tags.show', ['name' => $tag->name]) }}" class="border p-1 mr-1 mt-1 text-muted">
+                {{ $tag->hashtag }}
+              </a>
+        @if ($loop->last)
             </div>
           </div>
         @endif

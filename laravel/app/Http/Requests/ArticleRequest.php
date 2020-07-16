@@ -26,7 +26,7 @@ class ArticleRequest extends FormRequest
         return [
             'title' => 'required|string|max:30',
             'body' => 'required|string|max:500',
-            'tags' => 'json|regex:/^(?!.*\s).+$/u|regex:/^(?!.*\/).*$/u'
+            'tags' => 'json|regex:/^(?!.*\s).+$/u|regex:/^(?!.*\/).*$/u',
         ];
     }
 
@@ -39,9 +39,9 @@ class ArticleRequest extends FormRequest
         ];
     }
 
-    public function passedVaridation()
+    public function passedValidation()
     {
-        $this->tag= collect(json_decode($this->tags))
+        $this->tags = collect(json_decode($this->tags))
             ->slice(0, 5)
             ->map(function ($requestTag) {
                 return $requestTag->text;
