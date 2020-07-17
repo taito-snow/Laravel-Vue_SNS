@@ -8,4 +8,4 @@
 
 その場合は、このメールは破棄していただいて結構です。
 
-taitter({{ url(config('app.url')) }})
+Taitter({{ url(config('app.url')) }})

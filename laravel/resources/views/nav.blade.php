@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand navbar-dark purple-gradient">
 
-    <a class="navbar-brand" href="/"><i class="fab fa-laravel mr-1"></i>taitter</a>
+    <a class="navbar-brand" href="/"><i class="fab fa-laravel mr-1"></i>Taitter</a>
   
     <ul class="navbar-nav ml-auto">
   
