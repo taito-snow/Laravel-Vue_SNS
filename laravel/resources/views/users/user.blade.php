@@ -1,7 +1,7 @@
 <div class="card mt-3">
     <div class="card-body">
       <div class="d-flex flex-row">
-        <a href="{{ route('users.show', ['name' => $user->name]) }}" class="text-dark">
+        <a href="{{ route('users.show', ['name' => $user->name]) }}" class="blue-grey-text">
           <i class="fas fa-user-circle fa-3x"></i>
         </a>
         @if( Auth::id() !== $user->id )

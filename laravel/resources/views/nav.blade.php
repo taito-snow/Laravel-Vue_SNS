@@ -36,9 +36,16 @@
           >
             マイページ
           </button>
-          <div class="dropdown-divider"></div>
           <button form="logout-button" class="dropdown-item" type="submit">
             ログアウト
+          </button>
+          <div class="dropdown-divider"></div>
+          <button
+            class="dropdown-item"
+            type="button"
+            onclick="location.href='https://nayvic-tit.net/'"
+          >
+            制作者
           </button>
         </div>
       </li>
